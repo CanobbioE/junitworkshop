@@ -17,7 +17,6 @@ public class PaymentGateway {
     private static final String PAYMENT_ID = "123456";
 
     public PaymentGateway(PaypalCircuit paypalCircuit, CreditCardCircuit creditCardCircuit) {
-
         this.paypalCircuit = paypalCircuit;
         this.creditCardCircuit = creditCardCircuit;
     }
